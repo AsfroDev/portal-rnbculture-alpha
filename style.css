@@ -172,8 +172,8 @@ main{
     }  
     body::-webkit-scrollbar {
         display: none;
+    }
 }
-
 
 /* cellphones 360px to 830px width */
 /* desk-tablets-wide 830px to 2560px */
