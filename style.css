@@ -86,7 +86,7 @@ main{
     .card{
         width: 100%;
         height: 100%;
-        aspect-ratio: 3/3;
+        aspect-ratio: 3/2;
         border-radius: 3px;
     }
     .mini{
@@ -170,6 +170,8 @@ main{
     span{
         font-size: 2em;
     }  
+    body::-webkit-scrollbar {
+        display: none;
 }
 
 
