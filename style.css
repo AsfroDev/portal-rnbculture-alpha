@@ -76,7 +76,7 @@ main{
     .grid{
         width: 100%;
         max-width: 80vw;
-        min-width: 360px;
+        min-width: 300px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px 12px; 
