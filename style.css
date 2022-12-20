@@ -84,12 +84,31 @@ main{
     }
 /*card*/
     .card{
-        background-color:#313638;   
         width: 100%;
         height: 100%;
         aspect-ratio: 3/3;
-        border-radius: 3px;     
+        border-radius: 3px;
     }
+    .mini{
+        width: 100%;
+        height: 100%;
+    }
+    .window{
+        background: linear-gradient(180deg, transparent, rgb(3, 3, 3)),url(img-dic.jpg);
+        background-size: cover;
+        background-position: top;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    span{
+        color: #E1E8EB;
+        text-align: start;
+        margin: 15px;
+        font-size: calc(20% + 1rem);
+        text-shadow: #000000 -3px -5px 5px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
 /*footer*/
 .footer{
     width: 100%;
@@ -147,6 +166,9 @@ main{
         width: 80%;
         height: 3px;
         background-color: #e1e8eb57;
+    }
+    span{
+        font-size: 2em;
     }  
 }
 
