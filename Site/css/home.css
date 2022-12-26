@@ -94,7 +94,7 @@ main{
         height: 100%;
     }
     .window{
-        background: linear-gradient(180deg, transparent, rgb(3, 3, 3)),url(img-dic.jpg);
+        background: linear-gradient(180deg, transparent, rgb(3, 3, 3)),url(/Site/img/img-dic.jpg);
         background-size: cover;
         background-position: top;
         display: flex;
