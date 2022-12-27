@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/App/css/loginapi.css">
+    <title>Loginapi</title>
+
+    <script defer src="/App/js/auth.js"></script>
+
+</head>
+<body>
+    <div class="head"></div>
+    <div class="login-card">
+        
+        <form action="">
+            <h5>API service</h5>
+            <span>Não possui acesso?</span><a id="register">Registrar</a>
+            <input type="text" placeholder="E-mail" id="email" class="input">
+            <input type="password" placeholder="Senha" max="8" id="pass" class="input">
+            <span id="forgot">Esqueceu sua senha?</span>
+            <button type="submit" id="btn-login">ENTRAR</button>
+        </form>
+        
+    </div>
+
+    <div class="footer">
+        <div class="center-footer">
+            <span>API service - Serviço CRUD integrado ao Firebase<br>Desenvolvido e mantido por @AsfroDev / Marco Antonio Dias Junior<br>Direitos de Uso protegidos por Legal Commons e Políticas de Uso dos devidos fornecedores.</span>
+        </div>
+    </div>
+
+</body>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCsAL1R4MDAkj24EoHd7Rc0YuNJmCutLds",
+      authDomain: "api-service-rbculture.firebaseapp.com",
+      projectId: "api-service-rbculture",
+      storageBucket: "api-service-rbculture.appspot.com",
+      messagingSenderId: "1086655352545",
+      appId: "1:1086655352545:web:772fe6e08af2585705f1a0"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+
+</html>
