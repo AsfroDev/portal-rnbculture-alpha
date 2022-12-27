@@ -174,8 +174,8 @@ h5 {
     padding: 2px 10px;
     border: #3C4048 1px solid;
     overflow-y: scroll;
-    -ms-word-break: break-all;
-    word-break: break-all;
+    -ms-word-break: normal;
+    word-break: normal;
     overflow-x: hidden;
 }
 
@@ -266,9 +266,9 @@ h5 {
     .sec-tittle-window {
         width: 100%;
         height: auto;
-        font-size: 30px;
+        font-size: 25px;
         overflow-y: scroll;
-        -ms-word-break: break-all;
+        -ms-word-break: normal;
         word-break: normal;
     }
 
